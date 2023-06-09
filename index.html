@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Time</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onscroll="scrollFn()">
+    <main>
+      <nav class="menu" id="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#">Tours</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </nav>
+      <section class="sectionTop" id="home">
+        <div class="hero">
+          <h1>Travel Time</h1>
+          <div class="hero-sub">
+            let's travel with us we will start a new adventure together with
+            full of happiness and laughs
+          </div>
+          <a href="#" class="hero-btn">Join</a>
+        </div>
+      </section>
+      <section class="sectionMid" id="gallery">
+        <div>
+          <h2>Gallery</h2>
+          <div class="cards">
+            <div class="card">
+              <img src="assets/images/gallery/mountain_1.jpg" alt="" />
+              <div class="cardTitle">Mountain</div>
+              <div class="cardDesc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora .
+              </div>
+              <a href="#" class="cardBtn">Read More</a>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/mountain_2.jpg" alt="" />
+              <div class="cardTitle">Mountain</div>
+              <div class="cardDesc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora .
+              </div>
+              <a href="#" class="cardBtn">Read More</a>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/mountain_3.jpg" alt="" />
+              <div class="cardTitle">Mountain</div>
+              <div class="cardDesc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora .
+              </div>
+              <a href="#" class="cardBtn">Read More</a>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/mountain_4.jpg" alt="" />
+              <div class="cardTitle">Mountain</div>
+              <div class="cardDesc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora .
+              </div>
+              <a href="#" class="cardBtn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sectionBot" id="about-us">
+        <div class="botContainer">
+          <h2 class="botTitle">About Us</h2>
+          <div class="botDesc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+            lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+            lobortis.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+            lobortis.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      function scrollFn() {
+        if (window.pageYOffset > 100) {
+          document.getElementById("menu").classList.add("menu-scroll");
+        } else {
+          document.getElementById("menu").classList.remove("menu-scroll");
+        }
+      }
+    </script>
+  </body>
+</html>

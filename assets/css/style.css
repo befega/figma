@@ -1,0 +1,210 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  color: white !important;
+  font-family: "Poppins";
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+main {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  margin-top: 72px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-scroll {
+  background-color: rgba(78, 78, 78, 0.45);
+}
+
+.menu-scroll ul {
+  padding: 10px 0 !important;
+}
+.menu ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Poppins", medium;
+  padding-bottom: 7px;
+}
+
+.menu ul li a:hover {
+  border-bottom: 3px solid white;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sectionTop {
+  background-image: url("../images/bgtop.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionMid {
+  background-image: url("../images/bgmid.jpg");
+}
+
+.sectionBot {
+  background-image: url("../images/bgbot.jpg");
+}
+
+.sectionTop .hero {
+  display: grid;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.sectionTop .hero .hero-sub {
+  max-width: 750px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sectionTop .hero-btn {
+  width: 191px;
+  height: 40px;
+  padding: 16px 28px;
+  background: #18a77c;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: "Poppins";
+  font-style: medium;
+}
+
+.sectionTop .hero-btn:hover {
+  background: #198b2c;
+}
+
+.sectionTop h1 {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+  color: #ffffff;
+}
+
+.sectionMid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionMid .cards {
+  display: flex;
+  gap: 20px;
+}
+.sectionMid .card {
+  width: 320px;
+  padding: 24px;
+  box-sizing: border-box;
+  background: rgba(88, 88, 88, 0.5);
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.sectionMid .card img {
+  border-radius: 8px;
+}
+
+.sectionMid .card .cardTitle {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+}
+
+.sectionMid .card .cardDesc {
+  height: 160px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.sectionMid .card .cardBtn {
+  background: rgba(78, 78, 78, 0.45);
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.sectionBot {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionBot .botContainer {
+  max-width: 950px;
+  margin: auto;
+  max-height: 400px;
+}
+
+.sectionBot .botTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 72px;
+}
+
+.sectionBot .botDesc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 18px;
+  line-height: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
