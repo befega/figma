@@ -21,7 +21,7 @@ nav {
   width: 100%;
   position: fixed;
   margin: 0;
-  margin-top: 72px;
+  margin-top: 50px;
 }
 
 .menu ul {
@@ -32,7 +32,10 @@ nav {
 }
 
 .menu-scroll {
+  margin-top: 0;
   background-color: rgba(78, 78, 78, 0.45);
+  height: 70px;
+  vertical-align: middle;
 }
 
 .menu-scroll ul {
